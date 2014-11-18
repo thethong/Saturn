@@ -1,0 +1,10 @@
+2014/11/18 03:15:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in C:\Users\user\Desktop\yii-1.1.15.022a51\framework\web\CController.php:483
+Stack trace:
+#0 C:\Users\user\Desktop\yii-1.1.15.022a51\framework\web\CController.php(270): CController->missingAction('about')
+#1 C:\Users\user\Desktop\yii-1.1.15.022a51\framework\web\CWebApplication.php(282): CController->run('about')
+#2 C:\Users\user\Desktop\yii-1.1.15.022a51\framework\web\CWebApplication.php(141): CWebApplication->runController('site/about')
+#3 C:\Users\user\Desktop\yii-1.1.15.022a51\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\Project\Saturn\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Saturn/index.php/site/about
+---
